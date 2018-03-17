@@ -6,7 +6,9 @@ import styles from './index.css';
 const title = 'The Index of Darkness';
 
 ReactDOM.render(
-  <div className={styles.title}>{title}</div>,
+  <div className={styles.title}>
+    <p>{title}</p>
+  </div>,
   document.getElementById('app')
 );
 

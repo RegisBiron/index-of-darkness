@@ -1,9 +1,11 @@
-const webpack = require('webpack');
+const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+
+const IS_DEV = (process.env.NODE_ENV === 'dev');
 
 module.exports = {
   entry: [
-    'react-hot-loader/patch',
-    './src/index.js'
+    path.join(__dirname, 'src/index.js')
   ],
   module: {
     rules: [
@@ -23,8 +25,17 @@ module.exports = {
             options: {
               modules: true,
               camelCase: true,
-              sourceMap: true,
-              localIdentName: '[path][name]__[local]--[hash:base64:5]'
+              sourceMap: IS_DEV,
+              localIdentName: '[name]__[local]__[hash:base64:5]',
+              importLoaders: 1
+            }
+          },
+          {
+            loader: 'postcss-loader',
+            options: {
+              config: {
+                path: path.join(__dirname, './postcss.config.js')
+              }
             }
           }
         ]
@@ -34,19 +45,10 @@ module.exports = {
   resolve: {
     extensions: ['*', '.js', '.jsx']
   },
-  output: {
-    path: __dirname + '/build',
-    publicPath: '/',
-    filename: 'bundle.js'
-  },
   plugins: [
-    new webpack.HotModuleReplacementPlugin()
+    new HtmlWebpackPlugin({
+      template: path.join(__dirname, 'public/index.html'),
+      title: 'The Index of Darkness'
+    })
   ],
-  devServer: {
-    contentBase: './public',
-    port: 3000,
-    historyApiFallback: true,
-    hot: true,
-    open: true
-  }
 };
