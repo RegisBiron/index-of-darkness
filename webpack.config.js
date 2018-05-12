@@ -1,4 +1,5 @@
 const path = require('path');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 const IS_DEV = (process.env.NODE_ENV === 'dev');
@@ -7,6 +8,12 @@ module.exports = {
   entry: [
     path.join(__dirname, 'src/index.js')
   ],
+  resolve: {
+    extensions: ['*', '.js', '.jsx'],
+    modules: [
+      'node_modules'
+    ]
+  },
   module: {
     rules: [
       {
@@ -42,13 +49,14 @@ module.exports = {
       }
     ],
   },
-  resolve: {
-    extensions: ['*', '.js', '.jsx']
-  },
   plugins: [
     new HtmlWebpackPlugin({
       template: path.join(__dirname, 'public/index.html'),
-      title: 'The Index of Darkness'
-    })
+      title: 'The Index of Darkness',
+      favicon: './src/assets/favicons/favicon.png',
+    }),
+    new CopyWebpackPlugin([
+      { from: 'src/assets', to: 'assets' }
+    ])
   ],
 };

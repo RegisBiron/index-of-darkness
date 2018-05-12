@@ -1,16 +1,10 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { render } from 'react-dom';
+import App from './containers/App';
 
-import styles from './index.css';
-
-const title = 'The Index of Darkness';
-
-ReactDOM.render(
-  <div className={styles.title}>
-    <p>{title}</p>
-  </div>,
-  document.getElementById('app')
+render(
+  <App />,
+  document.getElementById('indexOfDarkness')
 );
-
 
 if (module.hot) module.hot.accept();
