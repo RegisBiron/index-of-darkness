@@ -1,0 +1,7 @@
+@import '../../styles/colors.css';
+
+.title {
+  p {
+    color: var(--red);
+  }
+}

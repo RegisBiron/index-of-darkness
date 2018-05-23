@@ -1,16 +1,16 @@
-import React, { Component } from 'react';
-import styles from './app.css';
+import React from 'react';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 
-const title = 'The Index of Darkness';
+import Intro from '../../components/Intro';
 
-class App extends Component {
-  render() {
-    return (
-      <div className={styles.title}>
-        <p>{title}</p>
-      </div>
-    );
-  }
-}
+import './app.css';
+
+//api_key=01721a42-90b4-4461-a87d-0c8a9ba269f1
+
+const App = () => (
+  <Router>
+    <Route path="/" component={Intro} />
+  </Router>
+);
 
 export default App;
