@@ -44,6 +44,7 @@
     "postcss-nested": "^3.0.0",
     "postcss-short": "^4.1.0",
     "prettier": "^1.12.1",
+    "promise": "^8.0.1",
     "react-hot-loader": "^4.0.0",
     "request": "^2.87.0",
     "style-loader": "^0.20.3",
