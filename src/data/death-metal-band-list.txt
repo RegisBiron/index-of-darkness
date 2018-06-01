@@ -1,3 +1,131 @@
+A
+  Abaddon Incarnate
+  Abated Mass of Fles
+  Abhorrence
+  Ablaze My Sorrow
+  Aborted
+  Abramelin
+  Abscess
+  The Absence
+  Abysmal Dawn
+  Abysmal Torment
+  Acheron
+  Acid Bath
+  Aeon
+  Aeternus
+  Afflicted
+  The Agonist
+  Akercocke
+  Alchemist
+  Aletheian
+  Altar
+  The Amenta
+  Amon Amarth
+  Amoral
+  Amorphis
+  Anata
+  Anathema
+  Arsis
+  Angelcorpse
+  Animosity
+  Antestor
+  Anvil of Doom
+  Arch Enemy
+  Archeon
+  Architects
+  Arise
+  Armageddon
+  Armoured Angel
+  Arsis
+  As I Lay Dying
+  Asesino
+  Asphyx
+  Assück
+  At the Gates
+  Atheist
+  Atrocity
+  Atrophia Red Sun
+  Augury
+  Austrian Death Machine
+  Autopsy
+  Autopsy Torment
+  Avulsed
+
+B
+  Battlelore
+  Becoming the Archetype
+  Beheaded
+  Behemoth
+  Belphegor
+  Benea Reach
+  Beneath the Massacre
+  Benediction
+  Benighted
+  The Berzerker
+  Bestial Warlust
+  Between the Buried and Me
+  Beyond Creation
+  Beyond the Sixth Seal
+  Bilocate
+  The Black Dahlia Murder
+  Blinded Colony
+  Blo.Torch
+  Blood Duster
+  Blood Red Throne
+  Blood Stain Child
+  Bloodbath
+  Bolt Thrower
+  Born of Osiris
+  Brain Drill
+  Brodequin
+  Broken Hope
+  Brujeria
+  Brutal Truth
+  Burning Inside
+  By Night
+
+C
+  Cadacross
+  Cadaver
+  Callenish Circle
+  Caninus
+  Cannibal Corpse
+  Capharnaum
+  Carbonized
+  Carcass
+  Cardinal Sin
+  Carnage
+  Carnival in Coal
+  Cattle Decapitation
+  Cavalera Conspiracy
+  Celtic Frost
+  Cemetary
+  Cenotaph
+  Centinex
+  Cephalic Carnage
+  Ceremonial Oath
+  Chain Collector
+  Changer
+  The Chasm
+  Children of Bodom
+  Coldworker
+  Comecon
+  The Concubine
+  Condemned
+  Consolation
+  Coprofago
+  Corpus Mortale
+  The County Medical Examiners
+  Cradle of Filth
+  The Crimson Armada
+  Crimson Death
+  Crimson Thorn
+  Crionics
+  The Crown
+  Cryogenic
+  Cryptopsy
+  Cynic
+
 D
 	Dååth
 	Dam
@@ -75,6 +203,7 @@ D
 	The Duskfall
 	Dying Fetus
 	Dylath Leen
+
 E
 	Ebony Tears
 	Edge of Sanity
@@ -90,11 +219,13 @@ E
 	Eternal Tears of Sorrow
 	Eucharist
 	Evoken
+  Exist
 	Ex Deo
 	Exhumed
 	Expulsion
 	Extol
 	Extreme Noise Terror
+
 F
 	Face Down
 	The Faceless
@@ -112,6 +243,7 @@ F
 	From the Shallows
 	Frontside
 	The Funeral Pyre
+
 G
 	Gandalf
 	Gates of Ishtar
@@ -142,6 +274,7 @@ G
 	Grotesque
 	Gut
 	Gutworm
+
 H
 	Hacride
 	Haemorrhage
@@ -162,6 +295,7 @@ H
 	Human Remains
 	Hybrid
 	Hypocrisy
+
 I
 	Illdisposed
 	Immolation
@@ -188,9 +322,11 @@ I
 	Internal Suffering
 	Into Eternity
 	Into the Moat
+
 J
 	Job for a Cowboy
 	Jungle Rot
+
 K
 	Kaamos
 	Kalmah
@@ -205,6 +341,7 @@ K
 	Krabathor
 	Krisiun
 	Kronos
+
 L
   Legion of the Damned
   Leng Tch'e
@@ -214,6 +351,7 @@ L
   Lost Soul
   Loudblast
   Lyzanxia
+
 M
   Macabre
   Malefice
@@ -224,6 +362,7 @@ M
   Massacra
   Massacre
   Master
+  Mastodon
   Mayhem
   Mendeed
   Mental Horror
@@ -251,6 +390,7 @@ M
   My Dying Bride
   Mygrain
   Myrkskog
+
 N
   Nahemah
   Nailed
@@ -278,6 +418,7 @@ N
   Noumena
   Novembre
   Nuclear Death
+
 O
   Obituary
   Obliterate
@@ -294,9 +435,11 @@ O
   Ophiolatry
   Oppressor
   Opprobrium
+  Oranssi Pazuzu
   Order from Chaos
   Origin
   Orphaned Land
+
 P
   Paganizer
   Painstruck
@@ -315,8 +458,10 @@ P
   Pungent Stench
   Pyogenesis
   Pyorrhoea
+
 Q
   Quo Vadis
+
 R
   Raise Hell
   Raintime
@@ -330,10 +475,12 @@ R
   Renascent
   Ribspreader
   Ripping Corpse
+  Rivers of Nihil
   The Rotted
   Rotten Sound
   Rudra
   Runemagick
+
 S
   Sacrificium
   Sadist
@@ -384,6 +531,7 @@ S
   Switchblade
   Sylosis
   Sympathy
+
 T
   Terror 2000
   Terrorizer
@@ -404,18 +552,24 @@ T
   Tourniquet
   Trap Them
   Tristwood
+
 U
   Unanimated
   Underoath
   Unleashed
+
 V
   Vader
   Vastum
   Vile
+  Virus
+  Virvum
   Visceral Bleeding
   Vital Remains
+  Voivod
   Vomitory
   Vorkreist
+
 W
   Waltari
   War
@@ -423,47 +577,16 @@ W
   Whitechapel
   Winter
   With Blood Comes Cleansing
+
 X
   Xenomorph
   Xysma
+
 Y
   Yyrkoon
+
 Z
   Zao
+  The Zenith Passage
   Zonaria
   Zyklon
-
-Death
-Decapitated
-Decrepit Birth
-Despised Icon
-Dying Fetus
-Extol
-The Faceless
-Gojira
-Gorguts
-Gorod
-In Battle
-Into the Moat
-Knights of the Abyss
-Man Must Die
-Martyr
-Necrophagist
-Neuraxis
-Nile
-Nocturnus
-Obscura
-Odious Mortem
-Opeth
-Origin
-Pargoath
-Pestilence
-Psycroptic
-The Red Chord
-Revocation
-Revulsed
-Rings of Saturn
-Spawn of Possession
-Suffocation
-Trigger the Bloodshed
-Ulcerate
