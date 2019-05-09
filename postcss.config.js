@@ -3,7 +3,7 @@ module.exports = {
     require('autoprefixer'),
     require('postcss-import'),
     require('postcss-modules-values'),
-    require('postcss-cssnext'),
+    require('postcss-preset-env'),
     require('postcss-short'),
     require('postcss-nested')
   ]
